@@ -5,6 +5,7 @@ MTG How To Start Guide Project
 Background:
 - Main - Dark Grey: #222222
 - Body - Light Grey: #2E2E2E
+
 Mana:
 - Black : #CEC2C0
 - Blue : #9EE0FB
@@ -18,4 +19,13 @@ Font:
 - White : #FFFFFF
 
 # Font-Style
+h1:
+- color: white
+- font-family: fantasy
+- font-weight: 1000
+- font-size: 60px
 
+h2:
+- color: white
+- font-family: fantasy
+- font-weight: 800
