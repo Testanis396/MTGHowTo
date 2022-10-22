@@ -3,7 +3,7 @@ body {
 }
 .container {
     min-height: 100vh;
-    background-color: #2e2e2e4f;
+    background-color: #222222;
     display: flex;
     flex-direction: column;  
 }
@@ -30,9 +30,17 @@ body {
 
 .content {
     min-height: 800px;
-    border: 1px solid black;
+    border: 1px solid white;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
 a {
     color: white;
 }
@@ -50,3 +58,14 @@ h1 {
     font-size: 60px;
 }
 
+#grid-item2 .box {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#grid-item2 .b{
+    color: white;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 20px;
+}

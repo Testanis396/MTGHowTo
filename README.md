@@ -29,3 +29,9 @@ h2:
 - color: white
 - font-family: fantasy
 - font-weight: 800
+
+body-header:
+- color: white
+- font-family: fantasy;
+- font-weight: 500;
+- font-size: 20px;
